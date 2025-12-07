@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Virtuoso",
+    "slug": "virtuoso",
+    "scheme": "virtuoso",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0d1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#0b0d1a"
+      },
+      "permissions": [
+        "RECORD_AUDIO",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.virtuoso"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "./plugins/withPcmStreaming",
+        {
+          "microphonePermission": "Allow Virtuoso to access the microphone to listen to your piano."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["PcmStreamingModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.pcmstreaming.PcmStreamingModule"]
+  }
+}

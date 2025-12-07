@@ -1,0 +1,15 @@
+{
+  "name": "pcm-streaming",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "description": "Low-latency PCM audio streaming with native YIN pitch detection for Virtuoso",
+  "expo": {
+    "modules": true
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
